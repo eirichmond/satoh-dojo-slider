@@ -7,8 +7,27 @@
   "category": "widgets",
   "icon": "media-interactive",
   "description": "An interactive block with the Interactivity API.",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "items": {
+      "type": "number",
+      "default": ""
+    },
+    "itemsPerView": {
+      "type": "number",
+      "default": ""
+    },
+    "itemType": {
+      "type": "string",
+      "default": ""
+    }
+  },
   "example": {},
   "supports": {
+    "align": true,
     "interactivity": true
   },
   "textdomain": "satoh-dojo-slider",

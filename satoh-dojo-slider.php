@@ -30,3 +30,4 @@ function create_block_satoh_dojo_slider_block_init() {
 	register_block_type_from_metadata( __DIR__ . '/build' );
 }
 add_action( 'init', 'create_block_satoh_dojo_slider_block_init' );
+
